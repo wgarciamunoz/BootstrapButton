@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Object id="BootstrapButton">
+		<Group>
+			<Name>General</Name>
+			<Type>Main</Type>
+			<Children>
+				<Prop>
+					<Id>Caption</Id>
+					<Name>Caption</Name>
+					<Type>Text</Type>
+					<Default></Default>
+				</Prop>
+
+				<Prop>
+					<Id>Style</Id>
+					<Name>Style</Name>
+					<Type>Combo</Type>
+					<Metadata/>
+					<Values>
+						<Value id="btn-default" desc="Default"/>
+						<Value id="btn-primary" desc="Primary"/>
+						<Value id="btn-success" desc="Success"/>
+						<Value id="btn-info" desc="Info"/>
+						<Value id="btn-warning" desc="Warning"/>
+						<Value id="btn-danger" desc="Danger"/>
+						<Value id="btn-link" desc="Link"/>
+					</Values>
+				</Prop>
+
+				<Prop>
+					<Id>Size</Id>
+					<Name>Size</Name>
+					<Type>Combo</Type>
+					<Metadata/>
+					<Values>
+						<Value id="btn-xs" desc="Extra Small"/>
+						<Value id="btn-sm" desc="Small"/>
+						<Value id="btn-md" desc="Medium"/>
+						<Value id="btn-lg" desc="Large"/>
+					</Values>
+				</Prop>
+
+				<Prop>
+					<Id>Glyphicon</Id>
+					<Name>Glyphicon</Name>
+					<Type>Combo</Type>
+					<Metadata/>
+					<Values>
+						<Value id="glyphicon-alert" desc="alert"/>
+						<Value id="glyphicon-align-center" desc="align-center"/>
+						<Value id="glyphicon-align-justify" desc="align-justify"/>
+						<Value id="glyphicon-copy" desc="copy"/>
+						<Value id="glyphicon-erase" desc="erase"/>
+						<Value id="glyphicon-file" desc="file"/>
+						<Value id="glyphicon-filter" desc="filter"/>
+						<Value id="glyphicon-floppy-disk" desc="floppy-disk"/>
+						<Value id="glyphicon-hand-up" desc="hand-up"/>
+					</Values>
+				</Prop>
+
+				<Prop>
+					<Id>Outline</Id>
+					<Name>Outline</Name>
+					<Type>Boolean</Type>
+					<Default></Default>
+				</Prop>
+
+				<Prop>
+					<Id>Badge</Id>
+					<Name>Badge</Name>
+					<Type>Integer</Type>
+					<Default></Default>
+				</Prop>
+
+				<Prop>
+					<Id>Active</Id>
+					<Name>Active</Name>
+					<Type>Boolean</Type>
+					<Default/>
+				</Prop>
+
+				<Prop>
+					<Id>Disabled</Id>
+					<Name>Disabled</Name>
+					<Type>Boolean</Type>
+					<Default/>
+				</Prop>
+
+				<Prop>
+					<Id>Block</Id>
+					<Name>Block</Name>
+					<Type>Boolean</Type>
+					<Default/>
+				</Prop>
+			</Children>
+		</Group>
+	</Object>
+</Content>
